@@ -3,5 +3,13 @@ def using_concat(arr1, arr2)
 end
 
 def using_insert(array, element)
-  return 
+  return array.insert(4, element)
 end
+
+def using uniq(array)
+  return array.uniq
+end
+
+def using_flatten(array)
+  return array.flatten
+
